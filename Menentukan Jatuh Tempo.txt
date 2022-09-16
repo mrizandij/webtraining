@@ -1,0 +1,3 @@
+ $tgltransaksi     = $this->input->post('tgltransaksi');
+    $jatuhtempo       = date('Y-m-d', strtotime("+1 month", strtotime(date($tgltransaksi))));
+    echo $jatuhtempo;
